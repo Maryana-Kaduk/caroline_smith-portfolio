@@ -1,0 +1,226 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+}
+html {
+    width: 595px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #242424;
+}
+main h2 {
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 515px;
+    margin: 0 auto;
+}
+
+body>header {
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+body>header section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+img {
+    margin-right: 16px;
+}
+hgroup {
+    padding: 9px 0;
+    /* margin-bottom: 16px; */
+}
+
+.header__link {
+    font-size: 10px;
+    line-height: 12px;
+    color: #242424;
+    text-decoration: none;
+    padding-left: 16px;
+}
+.icon__mail {
+    background-image: url(./images/icon/mail.svg);
+    background-repeat: no-repeat;
+    /* padding-left: 16px; */
+}
+.icon__link {
+    background-image: url(./images/icon/link.svg);
+    background-repeat: no-repeat;
+    /* padding-left: 16px; */
+}
+.icon__lin {
+    background-image: url(./images/icon/linkedin.svg);
+    background-repeat: no-repeat;
+    /* padding-left: 16px; */
+}
+.icon__insta {
+    background-image: url(./images/icon/instagram.svg);
+    background-repeat: no-repeat;
+    /* padding-left: 16px; */
+}
+
+h1 {
+    font-family: 'Spectral';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 46px;
+    letter-spacing: -0.05em;
+    color: #2D3E5B;
+    margin-bottom: 8px;
+}
+h2{
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #DB9291;
+    /* margin-bottom: 16px; */
+}
+
+h3 {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #2D3E5B;
+    /* margin-bottom: 12px; */
+}
+
+nav ul {
+    /* width: 372px; */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    /* align-items: center; */
+}
+
+/* article.container {
+    padding: 16px;
+    background-color: #F7F8F8;
+    border-radius: 10px;
+    font-family: 'Spectral';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130.2%;
+    letter-spacing: -0.05em;
+} */
+
+main > article{
+
+    background-color: #F7F8F8;
+    border-radius: 10px;
+    font-family: 'Spectral';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130.2%;
+    letter-spacing: -0.05em;
+}
+
+.expierence {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.pddesigner {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+article.pddesigner header, article.uxdesigner header {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uxdesigner {
+    padding-top: 16px;
+}
+
+.uxdesigner ul, .pddesigner ul{
+    margin-bottom: 22px;
+}
+
+
+/* .expierence h2 {
+    margin-bottom: 16px;
+} */
+
+.period, .company {
+    font-weight: 300;
+    line-height: 12px;
+    padding-left: 16px;
+}
+
+.company {
+    background-image: url(./images/icon/briefcase.svg);
+    background-repeat: no-repeat;
+}
+.period {
+    background-image: url(./images/icon/calendar.svg);
+    background-repeat: no-repeat;
+}
+
+.add__info {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add__info article {
+    margin-bottom: 16px;
+}
+/* .skills__and__education h2 {
+    margin-bottom: 16px;
+} */
+
+.add__info h3 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.skills, .education {
+    width: 241.5px;
+}
+
+.skills h3 {
+    margin-bottom: 2px;
+}
+
+.education h3 {
+    margin-bottom: 8px;
+}
+
+.education article {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EDEDED;
+}
+.education article p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place {
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    background-image: url(./images/icon/book-open.svg);
+    font-weight: 300;
+    line-height: 12px;
+}
+main>article p {
+    padding: 16px;
+}
+
